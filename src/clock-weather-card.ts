@@ -228,6 +228,9 @@ export class ClockWeatherCard extends LitElement {
       <clock-weather-card-today-left>
         <img class="grow-img" src=${icon} />
       </clock-weather-card-today-left>
+      <clock-weather-card-today-middle>
+        ${localizedTemp ?? 'n/a'}
+      </clock-weather-card-today-middle>
       <clock-weather-card-today-right>
         <clock-weather-card-today-right-wrap>
           <clock-weather-card-today-right-wrap-top>
